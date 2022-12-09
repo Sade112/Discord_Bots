@@ -1,5 +1,5 @@
 // Primero, obtenemos la hora actual
-const currentTime = new Date('December 19, 2022 15:30:00');
+const currentTime = new Date();
 
 // Luego, creamos una fecha y hora para la próxima clase
 const nextClassTime = new Date(currentTime.getFullYear(), currentTime.getMonth(), currentTime.getDate(), 17, 30, 0);
